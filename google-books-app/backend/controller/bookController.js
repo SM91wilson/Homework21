@@ -2,7 +2,7 @@ const Book = require('../model/books');
 
 module.exports={
     findAll: function (req, res){
-        Book.find(req.search).then(dbBook => res.json(dbBook))
+        Book.find(req.params).then(dbBook => res.json(dbBook))
             .catch(error => res.json(error));
 
     },

@@ -11,7 +11,7 @@ class Navbar extends React.Component {
             <Link to="/">Saved</Link>
           </li>
           <li>
-            <Link to="/search">search</Link>
+            <Link to="/search">Search</Link>
           </li>
         </ul>
       </nav>

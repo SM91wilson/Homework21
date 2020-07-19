@@ -6,9 +6,9 @@ function BooksContainer({title, children}){
             <h3>
                 {title}
             </h3>
-            <p>
+            <div>
                 {children}
-            </p>
+            </div>
         </div>
     )
 }

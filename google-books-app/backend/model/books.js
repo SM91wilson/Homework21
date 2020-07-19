@@ -7,13 +7,13 @@ const BookSchema = new mongoose.Schema({
     },
 
     authors: {
+        // array for if there are multiple authors
         type: [String]
     },
 
     description: {
         type: String
     },
-
 
     image: {
         type: String
